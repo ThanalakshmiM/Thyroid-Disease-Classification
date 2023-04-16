@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predict Page</title>
+</head>
+<body style="...">
+    <div class="header">
+        <h1 class='container-heading'><span class="heading_font">Thyroid Disease Classification</span></h1>
+    </div>
+    <div class="ml-container">
+        <form action="/pred" method="POST">
+            <br>
+            <h3>goitre</h3>
+            <input id="first" name="goitre" required="required">
+            <br>
+            <h3>tumor</h3>
+            <input id="second" name="tumor" required="required">
+            <br>
+            <h3>hypopituitary</h3>
+            <input id="third" name="hypopituitary" required="required">
+            <br>
+            <h3>TSH</h3>
+            <input id="fourth" name="TSH" required="required">
+            <br>
+            <h3>T4</h3>
+            <input id="fifth" name="T4" required="required">
+            <br>
+            <h3>TT4</h3>
+            <input id="sixth" name="TT4" required="required">
+            <br>
+            <h3>T4U</h3>
+            <input name="seventh" name="T4U" required="required">
+            <br>
+            <h3>FTI</h3>
+            <input name="eight" name="FTI" required="required">
+            <br>
+            <h3>TBG</h3>
+            <input name="ninth" name="TBG" required="required">
+            <br>
+            <br>
+            <br>
+        <button type="Submit">Submit</button>
+            <br>
+            <br>
+            <br>
+            <p class='footer-description'>
+            </p>
+        </form>
+    </div>
+<style>
+    body
+    {
+    background-image:url('thyroid.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100%100%;
+    }
+</style>
+</body>
+</html>
